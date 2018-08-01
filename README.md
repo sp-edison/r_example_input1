@@ -1,4 +1,4 @@
-# R language sample - sin()
+# R language sample - input 1개 입력 받기
 
 
 
