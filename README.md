@@ -15,7 +15,7 @@ run.r       // 실행 R 스크립트 파일
 zip 파일을 다운로드 받아 압축을 풀거나 ```git clone``` 명령어를 이용하여, 프로젝트를 가져올 수 있습니다.
 
 ```
-$ git clone git@github.com:sp-edison/r_example1.git
+$ git clone https://github.com/sp-edison/r_example_input1.git
 ```
 
 다운로드가 완료되면, ```r_example_input1``` 폴더가 생성되며, ```bin```폴더로 이동해 ```run.r``` 실행하면 됩니다.
