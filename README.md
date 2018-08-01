@@ -28,7 +28,7 @@ R의 경우 Script를 실행하는 형태로 별다른 컴파일 과정이 필�
 ```bash
 $ chmod u+x run.r
 $ ./run.r -i /home/ino/test.input
-input file = /home/ino/test.input
+/home/ino/test.input
 ```
 
 ## Source Code
@@ -52,9 +52,9 @@ if (is.null(opt$inp)){
   stop("At least one argument must be supplied (input file).n", call.=FALSE)
 }
 
-inputfile = opt$inp;
+inputfilepath = opt$inp;
 
-print(inputfile);
+print(inputfilepath);
 ```
 
 ### 주요 코드 설명
