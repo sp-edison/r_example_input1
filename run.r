@@ -15,6 +15,6 @@ if (is.null(opt$inp)){
   stop("At least one argument must be supplied (input file).n", call.=FALSE)
 }
 
-inputfile = opt$inp;
+inputfilepath = opt$inp;
 
-print(inputfile);
+print(inputfilepath);
