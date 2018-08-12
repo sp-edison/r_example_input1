@@ -46,7 +46,7 @@ input file = /home/ino/test.input
 ### simrc
 
 ```bash
-modulr load R/3.3.2
+module load R/3.3.2
 ```
 ```module load``` 명령어를 통해 R 모듈을 추가합니다.
 
